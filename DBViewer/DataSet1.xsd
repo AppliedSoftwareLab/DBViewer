@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="users" msprop:Generator_RowClassName="usersRow" msprop:Generator_RowEvHandlerName="usersRowChangeEventHandler" msprop:Generator_RowDeletedName="usersRowDeleted" msprop:Generator_RowDeletingName="usersRowDeleting" msprop:Generator_RowEvArgName="usersRowChangeEvent" msprop:Generator_TablePropName="users" msprop:Generator_RowChangedName="usersRowChanged" msprop:Generator_UserTableName="users" msprop:Generator_RowChangingName="usersRowChanging" msprop:Generator_TableClassName="usersDataTable" msprop:Generator_TableVarName="tableusers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:string" minOccurs="0" />
+              <xs:element name="password" msprop:Generator_UserColumnName="password" msprop:Generator_ColumnPropNameInTable="passwordColumn" msprop:Generator_ColumnPropNameInRow="password" msprop:Generator_ColumnVarNameInTable="columnpassword" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rank" msprop:Generator_RowClassName="rankRow" msprop:Generator_RowEvHandlerName="rankRowChangeEventHandler" msprop:Generator_RowDeletedName="rankRowDeleted" msprop:Generator_RowDeletingName="rankRowDeleting" msprop:Generator_RowEvArgName="rankRowChangeEvent" msprop:Generator_TablePropName="rank" msprop:Generator_RowChangedName="rankRowChanged" msprop:Generator_UserTableName="rank" msprop:Generator_RowChangingName="rankRowChanging" msprop:Generator_TableClassName="rankDataTable" msprop:Generator_TableVarName="tablerank">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:string" minOccurs="0" />
+              <xs:element name="score" msprop:Generator_UserColumnName="score" msprop:Generator_ColumnPropNameInTable="scoreColumn" msprop:Generator_ColumnPropNameInRow="score" msprop:Generator_ColumnVarNameInTable="columnscore" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_UserColumnName="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnVarNameInTable="columndate" type="xs:string" minOccurs="0" />
+              <xs:element name="playtime" msprop:Generator_UserColumnName="playtime" msprop:Generator_ColumnPropNameInTable="playtimeColumn" msprop:Generator_ColumnPropNameInRow="playtime" msprop:Generator_ColumnVarNameInTable="columnplaytime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="play" msprop:Generator_RowClassName="playRow" msprop:Generator_RowEvHandlerName="playRowChangeEventHandler" msprop:Generator_RowDeletedName="playRowDeleted" msprop:Generator_RowDeletingName="playRowDeleting" msprop:Generator_RowEvArgName="playRowChangeEvent" msprop:Generator_TablePropName="play" msprop:Generator_RowChangedName="playRowChanged" msprop:Generator_UserTableName="play" msprop:Generator_RowChangingName="playRowChanging" msprop:Generator_TableClassName="playDataTable" msprop:Generator_TableVarName="tableplay">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:string" minOccurs="0" />
+              <xs:element name="score" msprop:Generator_UserColumnName="score" msprop:Generator_ColumnPropNameInTable="scoreColumn" msprop:Generator_ColumnPropNameInRow="score" msprop:Generator_ColumnVarNameInTable="columnscore" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_UserColumnName="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnVarNameInTable="columndate" type="xs:string" minOccurs="0" />
+              <xs:element name="playtime" msprop:Generator_UserColumnName="playtime" msprop:Generator_ColumnPropNameInTable="playtimeColumn" msprop:Generator_ColumnPropNameInRow="playtime" msprop:Generator_ColumnVarNameInTable="columnplaytime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
